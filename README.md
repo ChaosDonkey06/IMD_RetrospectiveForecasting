@@ -5,3 +5,18 @@ Affiliations:
 1. Department of Environmental Health Sciences, Mailman School of Public Health, Columbia University, New York, NY, USA.
 2. Pfizer Pharma GmbH, Berlin, Germany
 3. Columbia Climate School, Columbia University, New York, NY, USA.
+
+## Replicating the paper:
+
+### 1.1 Download IMD CDC data from wonder app
+All the data is available publicy in the CDC Wonder App. The urls are stored to the data per year are in url_cdc.py, you need to run the code in download_cdc.py to download all the data under the specified directory.
+
+```
+python download_cdc.py
+```
+
+### 1.2 Prepare data
+We work with the US level data, so the next file create a monthly US level IMD case counts.
+```
+python prepare_data.py
+```
