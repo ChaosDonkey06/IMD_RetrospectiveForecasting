@@ -9,7 +9,7 @@ Affiliations:
 ## Replicating the paper:
 
 ### 1.1 Download IMD CDC data from wonder app
-All the data is available publicy in the [CDC Wonder App](https://wonder.cdc.gov). The urls are stored to the data per year are in url_cdc.py, you need to run the code in download_cdc.py to download all the data under the specified directory.
+All the data is available publicly in the [CDC Wonder App](https://wonder.cdc.gov). The urls are stored to the data per year are in url_cdc.py, you need to run the code in download_cdc.py to download all the data under the specified directory.
 
 ```
 python download_cdc.py
