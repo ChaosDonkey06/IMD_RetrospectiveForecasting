@@ -59,7 +59,7 @@ def wis(frcst_df, obs_df, quantiles=[5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 
         wis_df.loc[q]["interval_score"] = interval_score(loww, upp, value, q/100)
         meddian                         = frcst_df["median"]
 
-    K     = len(quantiles)
+    K   = len(quantiles)
     wis = 1 / (K + 1/2) * (1/2 * np.mean(np.abs(value - meddian)) + np.sum(np.array(quantiles)/100 * wis_df["interval_score"].values) )
 
     return wis
@@ -70,8 +70,7 @@ def compute_evals(frcst_df, obs_df):
     df_response_frct = pd.DataFrame(index=list(weekdict.keys()), columns=['mae', 'error', "wis"])
 
     for kw in weekdict.keys():
-        w = weekdict[kw]
-
+        w                                 = weekdict[kw]
         df_response_frct['mae'].loc[kw]   = meanae_df(frcst_df.iloc[:w], obs_df.iloc[:w])
         df_response_frct['error'].loc[kw] = error_df(frcst_df.iloc[:w], obs_df.iloc[:w])
         df_response_frct['wis'].loc[kw]   = wis(frcst_df.iloc[:w], obs_df.iloc[:w])

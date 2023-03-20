@@ -7,7 +7,7 @@ def degenerate_em_weights(dist_cond_likelihood, init_weights=None, obs_weights=N
 
     Args:
         dist_cond_likelihood (_type_): P_k(wi | hi), k in [1, num_models], i in [1, num_quantiles]
-        init_weights         (_type_): _description_
+        init_weights         (_type_): Naive weights.
         tol_stop             (_type_): _description_. Defaults to 1e-13.
     """
 
@@ -36,16 +36,15 @@ def degenerate_em_weights(dist_cond_likelihood, init_weights=None, obs_weights=N
 
     while log_lklhd > old_log_lklhd and (log_lklhd-old_log_lklhd >= tol_stop) or ((log_lklhd - old_log_lklhd) / -log_lklhd >= tol_stop)  :
         old_log_lklhd  = log_lklhd # Save new log-likelihood value.
-
-        weights      = np.divide(lkhds, np.expand_dims(marg_dist, -1))
-        weights      = np.average(weights, weights=obs_weights, axis=0) # Recompute weights | [num_models]
+        weights        = np.divide(lkhds, np.expand_dims(marg_dist, -1))
+        weights        = np.average(weights, weights=obs_weights, axis=0) # Recompute weights | [num_models]
 
         # Recompute likelihoods
-        lkhds     = weights * dist_cond_likelihood # Likelihoods   | [num_obs, num_models]
-        marg_dist = np.sum(lkhds, axis=-1)         # Marginal dist | [num_obs]
-        log_lklhd = np.average(np.log(marg_dist), weights=obs_weights) # Log-likelihood | Scalar
+        lkhds          = weights * dist_cond_likelihood                     # Likelihoods   | [num_obs, num_models]
+        marg_dist      = np.sum(lkhds, axis=-1)                             # Marginal dist | [num_obs]
+        log_lklhd      = np.average(np.log(marg_dist), weights=obs_weights) # Log-likelihood | Scalar
 
-    w_df = pd.DataFrame(columns=["weigth", "model_name"])
+    w_df           = pd.DataFrame(columns=["weigth", "model_name"])
     w_df["weigth"] = weights
     if models_name:
         w_df["model_name"] = models_name
