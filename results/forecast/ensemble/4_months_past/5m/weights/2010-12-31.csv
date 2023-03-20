@@ -1,5 +1,5 @@
 model_name,weigth
 arima,0.0
-eakf_model1,0.9999999325798674
-eakf_model2,1.1e-322
-eakf_model3,6.742013254029887e-08
+eakf_model1,0.9999999998635574
+eakf_model2,6.601405706307564e-21
+eakf_model3,1.3644254186700156e-10
