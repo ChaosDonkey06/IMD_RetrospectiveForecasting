@@ -27,4 +27,4 @@ python prepare_data.py
 ```
 
 ### 1.3 Time series analyses
-Just looking at the time series it looks like there's a seasonality, and also there're substantial references pointing different explanation to this. We investigating the seasonal patterns using Local Wavelet Power Spectrum (LWPS). The notebook 
+Just looking at the time series it looks like there's a seasonality, and also there're substantial references pointing different explanation to this. We investigating the seasonal patterns using Local Wavelet Power Spectrum (LWPS). The notebook `analyses/TimeSeriesAnalyses.ipynb`...
