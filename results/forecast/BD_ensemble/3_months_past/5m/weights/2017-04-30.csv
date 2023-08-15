@@ -1,0 +1,6 @@
+model_name,weigth
+arima,3e-323
+eakf_model1,6.296006920211528e-09
+eakf_model2,0.9999999937039931
+eakf_model3,1.022724959135953e-164
+sarima,3e-323

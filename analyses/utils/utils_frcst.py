@@ -34,7 +34,8 @@ def degenerate_em_weights(dist_cond_likelihood, init_weights=None, obs_weights=N
     log_lklhd     = np.average(np.log(marg_dist), weights=obs_weights)
     old_log_lklhd = -1000
 
-    while log_lklhd > old_log_lklhd and (log_lklhd-old_log_lklhd >= tol_stop) or ((log_lklhd - old_log_lklhd) / -log_lklhd >= tol_stop)  :
+    while log_lklhd > old_log_lklhd and (log_lklhd-old_log_lklhd >= tol_stop) or ((log_lklhd - old_log_lklhd) / -log_lklhd >= tol_stop):
+
         old_log_lklhd  = log_lklhd # Save new log-likelihood value.
         weights        = np.divide(lkhds, np.expand_dims(marg_dist, -1))
         weights        = np.average(weights, weights=obs_weights, axis=0) # Recompute weights | [num_models]
