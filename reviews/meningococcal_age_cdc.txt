@@ -1,0 +1,48 @@
+"Notes"	"Disease"	"Disease Code"	"Year"	"Year Code"	"Age"	"Age Code"	Case Count	Population for Published Rate	Published Rate
+	"Meningococcal disease, All serogroups"	"10150"	"2016"	"2016"	"<1  year         "	"1"	35	3970145	0.09
+	"Meningococcal disease, All serogroups"	"10150"	"2016"	"2016"	"1-4 years"	"2"	33	15956892	0.02
+	"Meningococcal disease, All serogroups"	"10150"	"2016"	"2016"	"5-14 years"	"3"	21	41048032	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2016"	"2016"	"15-24 years"	"4"	80	43511027	0.02
+	"Meningococcal disease, All serogroups"	"10150"	"2016"	"2016"	"25-39 years"	"5"	64	65451148	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2016"	"2016"	"40-64 years"	"6"	80	103946074	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2016"	"2016"	"65+ years"	"7"	62	49244195	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2016"	"2016"	"Unknown"	"99"	0	Not Available	Not Applicable
+"Total"	"Meningococcal disease, All serogroups"	"10150"	"2016"	"2016"			375	323127513	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2017"	"2017"	"<1  year         "	"1"	26	3939295	0.07
+	"Meningococcal disease, All serogroups"	"10150"	"2017"	"2017"	"1-4 years"	"2"	20	15999565	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2017"	"2017"	"5-14 years"	"3"	23	41082692	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2017"	"2017"	"15-24 years"	"4"	75	43250295	0.02
+	"Meningococcal disease, All serogroups"	"10150"	"2017"	"2017"	"25-39 years"	"5"	53	66574669	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2017"	"2017"	"40-64 years"	"6"	81	104013983	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2017"	"2017"	"65+ years"	"7"	75	50858679	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2017"	"2017"	"Unknown"	"99"	0	Not Available	Not Applicable
+"Total"	"Meningococcal disease, All serogroups"	"10150"	"2017"	"2017"			353	325719178	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2018"	"2018"	"<1  year         "	"1"	32	3848208	0.08
+	"Meningococcal disease, All serogroups"	"10150"	"2018"	"2018"	"1-4 years"	"2"	29	15962067	0.02
+	"Meningococcal disease, All serogroups"	"10150"	"2018"	"2018"	"5-14 years"	"3"	14	41075169	0.00
+	"Meningococcal disease, All serogroups"	"10150"	"2018"	"2018"	"15-24 years"	"4"	41	42970800	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2018"	"2018"	"25-39 years"	"5"	47	67261361	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2018"	"2018"	"40-64 years"	"6"	92	103618636	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2018"	"2018"	"65+ years"	"7"	72	52431193	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2018"	"2018"	"Unknown"	"99"	0	Not Available	Not Applicable
+"Total"	"Meningococcal disease, All serogroups"	"10150"	"2018"	"2018"			327	327167434	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2019"	"2019"	"<1  year         "	"1"	27	3783052	0.07
+	"Meningococcal disease, All serogroups"	"10150"	"2019"	"2019"	"1-4 years"	"2"	34	15793631	0.02
+	"Meningococcal disease, All serogroups"	"10150"	"2019"	"2019"	"5-14 years"	"3"	14	40994163	0.00
+	"Meningococcal disease, All serogroups"	"10150"	"2019"	"2019"	"15-24 years"	"4"	52	42687510	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2019"	"2019"	"25-39 years"	"5"	58	67677842	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2019"	"2019"	"40-64 years"	"6"	96	103245062	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2019"	"2019"	"65+ years"	"7"	90	54058263	0.02
+	"Meningococcal disease, All serogroups"	"10150"	"2019"	"2019"	"Unknown"	"99"	0	Not Available	Not Applicable
+"Total"	"Meningococcal disease, All serogroups"	"10150"	"2019"	"2019"			371	328239523	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2020"	"2020"	"<1  year         "	"1"	16	3735010	0.04
+	"Meningococcal disease, All serogroups"	"10150"	"2020"	"2020"	"1-4 years"	"2"	20	15566282	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2020"	"2020"	"5-14 years"	"3"	14	40992134	0.00
+	"Meningococcal disease, All serogroups"	"10150"	"2020"	"2020"	"15-24 years"	"4"	35	42555684	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2020"	"2020"	"25-39 years"	"5"	38	67897950	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2020"	"2020"	"40-64 years"	"6"	77	103077698	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2020"	"2020"	"65+ years"	"7"	42	55659365	0.01
+	"Meningococcal disease, All serogroups"	"10150"	"2020"	"2020"	"Unknown"	"99"	0	Not Available	Not Applicable
+"Total"	"Meningococcal disease, All serogroups"	"10150"	"2020"	"2020"			242	329484123	0.01
+"Total"	"Meningococcal disease, All serogroups"	"10150"					1668	1633737771	0.01
+"Total"							1668	1633737771	0.01
